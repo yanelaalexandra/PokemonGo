@@ -123,8 +123,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
                 //Obteniendo el nombre para comparar
                 var nombre = pokemon.nombre
                 var pokemones = obtenerPokemonsAtrapados();
-                var poke = pokemones[1];
-                print(poke.nombre!)
                 
                 //Mostrar el alert y el for con la comparación
                 for pokemone in pokemones{
